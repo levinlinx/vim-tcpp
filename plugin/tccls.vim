@@ -10,7 +10,7 @@ let g:coc_user_config = {
 \    },
 \    "languageserver": {
 \        "ccls": {
-\            "command": ccls_bin,
+\            "command": s:ccls_bin,
 \            "args": ["--log-file=/tmp/ccls.log", "-v=1"],
 \            "trace.server": "verbose",
 \            "filetypes": ["c", "cc", "cpp"],
@@ -33,7 +33,7 @@ let g:coc_user_config = {
 \                },
 \                "clang": {
 \                    "extraArgs": ["--gcc-toolchain=/usr"],
-\                    "resourceDir": calng_res_dir
+\                    "resourceDir": s:clang_res_dir
 \                }
 \            }
 \        }
