@@ -16,14 +16,8 @@ let g:coc_user_config = {
 \            "filetypes": ["c", "cc", "cpp"],
 \            "rootPatterns": [".ccls"],
 \            "initializationOptions": {
-\                "cache": {
-\                    "directory": "/tmp/ccls-cache"
-\                },
 \                "client": {
 \                    "snippetSupport": v:true
-\                },
-\                "highlight": {
-\                    "lsRanges" : v:false
 \                },
 \                "index": {
 \                    "threads": 1
