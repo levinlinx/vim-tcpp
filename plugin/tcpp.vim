@@ -16,14 +16,8 @@ let g:coc_user_config = {
 \            "filetypes": ["c", "cc", "cpp"],
 \            "rootPatterns": [".ccls"],
 \            "initializationOptions": {
-\                "client": {
-\                    "snippetSupport": v:true
-\                },
 \                "index": {
-\                    "threads": 1
-\                },
-\                "workspaceSymbol": {
-\                    "sort": v:true
+\                    "threads": 4
 \                },
 \                "clang": {
 \                    "resourceDir": s:clang_res_dir
