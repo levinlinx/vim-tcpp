@@ -26,7 +26,6 @@ let g:coc_user_config = {
 \                    "sort": v:true
 \                },
 \                "clang": {
-\                    "extraArgs": ["--gcc-toolchain=/usr"],
 \                    "resourceDir": s:clang_res_dir
 \                }
 \            }
