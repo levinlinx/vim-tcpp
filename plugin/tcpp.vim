@@ -8,6 +8,7 @@ let g:coc_user_config = {
 \        "enable": v:true,
 \        "refreshAfterSave": v:true
 \    },
+\   "coc.preferences.useQuickfixForLocations": v:true,
 \    "languageserver": {
 \        "ccls": {
 \            "command": s:ccls_bin,
@@ -49,10 +50,10 @@ let g:coc_user_config = {
 "set fillchars+=vert:\ 
 
 " clang-format
-let g:clang_format_path = s:path . '/../bin/clang-format'
-let g:clang_script_path = s:path . '/../bin/clang-format.py'
-if has('python')
-    map <expr> <C-M> ":pyf " . g:clang_script_path . "<cr>"
-elseif has('python3')
-    map <expr> <C-M> ":py3f " . g:clang_script_path . "<cr>"
-endif
+"let g:clang_format_path = s:path . '/../bin/clang-format'
+"let g:clang_script_path = s:path . '/../bin/clang-format.py'
+"if has('python')
+"    map <expr> <C-M> ":pyf " . g:clang_script_path . "<cr>"
+"elseif has('python3')
+"    map <expr> <C-M> ":py3f " . g:clang_script_path . "<cr>"
+"endif
